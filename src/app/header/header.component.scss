@@ -1,0 +1,19 @@
+@import '../../styles/styles';
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 5rem;
+  background-color: $dark-blue;
+
+  &__nav {
+    width: 100%;
+
+    ul {
+      display: flex;
+      justify-content: space-around;
+      margin: 0;
+      list-style: none;
+    }
+  }
+}

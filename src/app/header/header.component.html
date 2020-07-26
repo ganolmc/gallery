@@ -1,0 +1,11 @@
+<header class="header">
+  <nav class="header__nav">
+    <ul>
+      <li *ngFor="let item of menuItems">
+        <a [routerLink]="item.path">
+          <button class="header__nav-btn btn" type="button>">{{ item.label }}</button>
+        </a>
+      </li>
+    </ul>
+  </nav>
+</header>
