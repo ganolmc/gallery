@@ -1,0 +1,7 @@
+<div class="photos">
+  <app-photo *ngFor="let image of images" [image]="image"></app-photo>
+</div>
+
+<p *ngIf="isLoading">Is loading</p>
+
+<div #anchor></div>
