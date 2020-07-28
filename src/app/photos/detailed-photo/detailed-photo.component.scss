@@ -1,0 +1,17 @@
+@import '../../../styles/styles';
+
+.detailed-photo {
+  padding: 4rem;
+  text-align: center;
+
+  &__image {
+    display: block;
+    width: 100%;
+  }
+
+  &__remove-btn {
+    margin: 4rem auto;
+    background-color: $blue;
+    color: #fff;
+  }
+}

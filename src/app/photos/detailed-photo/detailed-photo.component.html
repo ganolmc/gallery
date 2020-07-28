@@ -1,1 +1,5 @@
-<p>detailed-photo works!</p>
+<div class="detailed-photo">
+  <img [src]="image.url" alt="" class="detailed-photo__image" />
+
+  <button class="btn detailed-photo__remove-btn" (click)="onRemoveBtnClick()">Remove from favorites</button>
+</div>
