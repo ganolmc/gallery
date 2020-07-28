@@ -1,7 +1,11 @@
 <div class="photos">
-  <app-photo *ngFor="let image of images" [image]="image"></app-photo>
+  <div class="photos__gallery">
+    <app-photo *ngFor="let image of images" [image]="image"></app-photo>
+  </div>
+
+  <div class="photos__spinner">
+    <div class="spinner"></div>
+  </div>
+
+  <div #anchor></div>
 </div>
-
-<p *ngIf="isLoading">Is loading</p>
-
-<div #anchor></div>

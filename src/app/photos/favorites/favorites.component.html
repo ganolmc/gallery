@@ -1,0 +1,5 @@
+<div class="favorites">
+  <div class="favorites__gallery">
+    <app-photo *ngFor="let image of images" [image]="image" (click)="onPhotoClick(image.id)"></app-photo>
+  </div>
+</div>

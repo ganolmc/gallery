@@ -1,15 +1,9 @@
-@import '../../styles/styles';
-
-.photos {
+.favorites {
   padding: 2rem;
 
   &__gallery {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-  }
-
-  &__spinner {
-    text-align: center;
   }
 }
